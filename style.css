@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PRODUCTS */
+
+.treat {
+    background-color: rgb(236, 22, 22);
+}
+.veggie {
+    background-color: rgb(57, 129, 57);
+}
+.meat {
+    background-color: rgb(129, 96, 96);
+}
+
+.food-div {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.food-div:hover {
+    box-shadow: 1px 5px 10px black;
+    transition: all 0.5s ease;
+}
+
+.gram-bar {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+}
+
+.gram-bar:focus{
+    outline: none;
+}
+
+p {
+    font-size: 10px;
+}
+
+
